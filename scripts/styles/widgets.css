@@ -1,0 +1,90 @@
+.col-md-2, .col-md-4, .col-md-6, .col-md-8, .col-md-12 {
+    /*padding-left: 0px !important;*/
+    /*padding-right: 0px !important;*/
+}
+body{
+    background-color: #714581;
+}
+
+.container {
+    width: 80% !important;
+    margin:0 auto !important;
+}
+
+.webpart {
+    /*border: 4px solid #714581; */
+}
+
+.widget {
+    color: #ffffff;
+    min-height: 100px !important;
+    min-width: 100px !important;
+}
+
+.widget.structure {
+    background-color: #d5524a;
+}
+
+.widget.blogs {
+    background-color: #92a840;
+}
+
+.widget.hooray {
+    background-color: #477aa0;
+}
+
+.widget.myprofile {
+    background-color: #d5524a;
+}
+
+ .widget.interview {
+    background-color: #477aa0;
+}
+
+.widget.officemap {
+    background-color: #6f2162;
+}
+
+.widget.photos {
+    background-color: #6d6d6d;
+}
+
+.widget.events {
+    background-color: #92a840;
+}
+
+.widget.newemployees {
+    background-color: #d5524a;
+}
+
+.widget.birthdays {
+    background-color: #477aa0;
+}
+
+.widget.ideas {
+    background-color: #92a840;
+}
+
+.widget.note {
+    background-color: #477aa0;
+}
+
+.widget.facebook {
+    background-color: #6f2162;
+}
+
+.widget.job {
+    background-color: #714581;
+}
+
+.widget.neighbors {
+    background-color: #714581;
+}
+
+.widget.portal {
+    background-color: #714581;
+}
+
+.widget.services {
+    background-color: #714581;
+}
