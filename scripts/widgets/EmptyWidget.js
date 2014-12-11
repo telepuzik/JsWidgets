@@ -8,7 +8,7 @@ $(function(){
            var name = this.options.name;
            this.element
                .addClass("widget")
-               .text (name)
+               .append("<a href='/'>" + name + "</a>");
        }
     });
 
@@ -17,7 +17,7 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a href='/'>" + name + "</a>");
         }
     });
 
@@ -26,7 +26,7 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a href='/'>" + name + "</a>");
         }
     });
 
@@ -35,7 +35,7 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a href='/'>" + name + "</a>");
         }
     });
 
@@ -44,7 +44,8 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a href='/'>" + name + "</a>")
+                .append("<br><p>Вы уже ответили на данный опрос</p>");
         }
     });
 
@@ -53,7 +54,7 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a href='/'>" + name + "</a>");
         }
     });
 
@@ -62,7 +63,7 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a href='/'>" + name + "</a>");
         }
     });
 
@@ -71,7 +72,7 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a href='/'>" + name + "</a>");
         }
     });
 
@@ -80,7 +81,7 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a href='/'>" + name + "</a>");
         }
     });
 
@@ -89,7 +90,7 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a style='' href='/'>" + name + "</a>");
         }
     });
 
@@ -98,7 +99,7 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a href='/'>" + name + "</a>");
         }
     });
 
@@ -107,7 +108,7 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a href='/'>" + name + "</a>");
         }
     });
 
@@ -116,7 +117,7 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a href='/'>" + name + "</a>");
         }
     });
 
@@ -125,7 +126,7 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a href='/'>" + name + "</a>");
         }
     });
 
@@ -134,7 +135,7 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a href='/'>" + name + "</a>");
         }
     });
 
@@ -143,7 +144,7 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a href='/'>" + name + "</a>");
         }
     });
 
@@ -152,7 +153,7 @@ $(function(){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .text (name)
+                .append("<a href='/'>" + name + "</a>");
         }
     });
 });
