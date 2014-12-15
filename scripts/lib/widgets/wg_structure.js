@@ -9,7 +9,10 @@ function WgStructureCreate(element){
                 var name = this.options.name;
                 this.element
                     .addClass("widget")
-                    .append("<a href='/'>" + name + "</a>");
+                    .append("<a href='/'>" + name + "</a>")
+                    .click (function(){
+                        alert  ("Calm down. Nothing to see here.");
+                });
             }
         });
 

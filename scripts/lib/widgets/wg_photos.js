@@ -12,7 +12,7 @@ function WgPhotosCreate (element){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .append("<a href='/'>" + name + "</a>");
+                .append("<a href='/'>" + name + "</a>")
         }
     });
 

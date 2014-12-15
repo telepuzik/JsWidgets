@@ -4,7 +4,10 @@ function WgBlogsCreate (element){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .append("<a href='/'>" + name + "</a>");
+                .append("<a href='/'>" + name + "</a>")
+                .click (function(){
+                     alert  ("Calm down. Nothing to see here.");
+                });
         }
     });
 
@@ -17,7 +20,10 @@ function WgHoorayCreate (element){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .append("<a href='/'>" + name + "</a>");
+                .append("<a href='/'>" + name + "</a>")
+                .click (function(){
+                    alert  ("Calm down. Nothing to see here.");
+                });
         }
     });
 
@@ -30,7 +36,10 @@ function WgMyprofileCreate (element){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .append("<a href='/'>" + name + "</a>");
+                .append("<a href='/'>" + name + "</a>")
+                .click (function(){
+                    alert  ("Calm down. Nothing to see here.");
+                });
         }
     });
 
@@ -44,7 +53,11 @@ function WgInterviewCreate (element){
             this.element
                 .addClass("widget")
                 .append("<a href='/'>" + name + "</a>")
-                .append("<br><p>Вы уже ответили на данный опрос</p>");
+                .append("<br><p>Вы уже ответили на данный опрос</p>")
+                .click (function(){
+                    alert  ("Calm down. Nothing to see here.");
+                });
+
         }
     });
 
@@ -57,7 +70,10 @@ function WgOfficemapCreate (element){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .append("<a href='/'>" + name + "</a>");
+                .append("<a href='/'>" + name + "</a>")
+                .click (function(){
+                    alert  ("Calm down. Nothing to see here.");
+                });
         }
     });
 
@@ -70,7 +86,10 @@ function WgEventsCreate (element){
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .append("<a href='/'>" + name + "</a>");
+                .append("<a href='/'>" + name + "</a>")
+                .click (function(){
+                    alert  ("Calm down. Nothing to see here.");
+                });
         }
     });
 
@@ -83,7 +102,10 @@ function WgNewemployeesCreate (element) {
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .append("<a href='/'>" + name + "</a>");
+                .append("<a href='/'>" + name + "</a>")
+                .click (function(){
+                    alert  ("Calm down. Nothing to see here.");
+                });
         }
     });
 
@@ -96,7 +118,10 @@ function WgBirthdaysCreate (element) {
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .append("<a style='' href='/'>" + name + "</a>");
+                .append("<a style='' href='/'>" + name + "</a>")
+                .click (function(){
+                    alert  ("Calm down. Nothing to see here.");
+                });
         }
     });
 
@@ -109,7 +134,10 @@ function WgIdeasCreate(element) {
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .append("<a href='/'>" + name + "</a>");
+                .append("<a href='/'>" + name + "</a>")
+                .click (function(){
+                    alert  ("Calm down. Nothing to see here.");
+                });
         }
     });
 
@@ -122,7 +150,10 @@ function WgNoteCreate (element) {
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .append("<a href='/'>" + name + "</a>");
+                .append("<a href='/'>" + name + "</a>")
+                .click (function(){
+                    alert  ("Calm down. Nothing to see here.");
+                });
         }
     });
 
@@ -135,7 +166,10 @@ function WgFacebookCreate (element) {
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .append("<a href='/'>" + name + "</a>");
+                .append("<a href='/'>" + name + "</a>")
+                .click (function(){
+                    alert  ("Calm down. Nothing to see here.");
+                });
         }
     });
 
@@ -148,7 +182,10 @@ function WgJobCreate (element) {
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .append("<a href='/'>" + name + "</a>");
+                .append("<a href='/'>" + name + "</a>")
+                .click (function(){
+                    alert  ("Calm down. Nothing to see here.");
+                });
         }
     });
 
@@ -161,7 +198,10 @@ function WgNeighborsCreate (element) {
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .append("<a href='/'>" + name + "</a>");
+                .append("<a href='/'>" + name + "</a>")
+                .click (function(){
+                    alert  ("Calm down. Nothing to see here.");
+                });
         }
     });
 
@@ -174,7 +214,10 @@ function WgPortalCreate (element) {
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .append("<a href='/'>" + name + "</a>");
+                .append("<a href='/'>" + name + "</a>")
+                .click (function(){
+                    alert  ("Calm down. Nothing to see here.");
+                });
         }
     });
 
@@ -187,7 +230,10 @@ function WgServicesCreate (element) {
             var name = this.options.name;
             this.element
                 .addClass("widget")
-                .append("<a href='/'>" + name + "</a>");
+                .append("<a href='/'>" + name + "</a>")
+                .click (function(){
+                    alert  ("Calm down. Nothing to see here.");
+                });
         }
     });
 
