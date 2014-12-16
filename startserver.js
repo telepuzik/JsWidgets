@@ -62,7 +62,6 @@ function CreateMultiServer (){
             console.log("empty path. now: " + filename);
         }
         var isValidExt = validExtensions[ext];
-        console.log ("valid extension: " + isValidExt);
 
         if (isValidExt) {
 
@@ -70,7 +69,7 @@ function CreateMultiServer (){
             path.exists(localPath, function(exists) {
                 if(exists) {
                     console.log("Serving file: " + localPath);
-                    getFile(localPath, res, ext);
+                    getFile(localPath, res, isValidExt);
                 } else {
                     console.log("File not found: " + localPath);
                     res.writeHead(404);
@@ -90,17 +89,17 @@ function getFile(localPath, res, mimeType) {
     fs.readFile(localPath, function(err, contents) {
         if(!err) {
             res.setHeader("Content-Length", contents.length);
-            if (mimeType == ".js") {
-                console.log("js here!");
-
-                mimeType = "application/javascript";
-                console.log("type now: " + mimeType);
-            }
-            if (mimeType == ".css") {
-                console.log("css here!");
-                mimeType = "text/css";
-                console.log("type now: " + mimeType);
-            }
+//            if (mimeType == ".js") {
+//                console.log("js here!");
+//
+//                mimeType = "application/javascript";
+//                console.log("type now: " + mimeType);
+//            }
+//            if (mimeType == ".css") {
+//                console.log("css here!");
+//                mimeType = "text/css";
+//                console.log("type now: " + mimeType);
+//            }
             res.setHeader("Content-Type", mimeType);
             res.statusCode = 200;
             res.end(contents);
