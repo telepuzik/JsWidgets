@@ -54,7 +54,8 @@ function CreateMultiServer (){
             ".txt": "text/plain",
             ".jpg": "image/jpeg",
             ".gif": "image/gif",
-            ".png": "image/png"
+            ".png": "image/png",
+            ".ico": "image/ico"
         };
         if (ext === "") {
             ext = ".html";
