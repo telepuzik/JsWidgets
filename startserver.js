@@ -104,7 +104,7 @@ function getFile(localPath, res, mimeType) {
 var http = require('http');
 var fs = require('fs');
 var path = require('path');
-var serverIp = "192.168.1.100";
+var serverIp = "178.62.50.4";
 var serverPort = 8888;
 
 //CreateBasicServer();
