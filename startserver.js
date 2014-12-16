@@ -62,6 +62,7 @@ function CreateMultiServer (){
             console.log("empty path. now: " + filename);
         }
         var isValidExt = validExtensions[ext];
+        console.log ("valid extension: " + isValidExt);
 
         if (isValidExt) {
 
@@ -91,6 +92,7 @@ function getFile(localPath, res, mimeType) {
             res.setHeader("Content-Length", contents.length);
             if (mimeType == ".js") {
                 console.log("js here!");
+
                 mimeType = "application/javascript";
                 console.log("type now: " + mimeType);
             }
