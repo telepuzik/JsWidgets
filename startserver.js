@@ -94,6 +94,11 @@ function getFile(localPath, res, mimeType) {
                 mimeType = "application/javascript";
                 console.log("type now: " + mimeType);
             }
+            if (mimeType == ".css") {
+                console.log("css here!");
+                mimeType = "text/css";
+                console.log("type now: " + mimeType);
+            }
             res.setHeader("Content-Type", mimeType);
             res.statusCode = 200;
             res.end(contents);
