@@ -109,12 +109,12 @@ var serverPort = 8888;
 //CreateHtmlServer();
 CreateMultiServer();
 
-var wordslib = require('./wordslib.js');
-var words = wordslib.getWords();
+//var wordslib = require('./wordslib.js');
+//var words = wordslib.getWords();
 
-for (var i= 0; i<words.length; i++){
-    currentWord = words[i];
+//for (var i= 0; i<words.length; i++){
+//    currentWord = words[i];
     //console.log (currentWord.formZero + ", " + currentWord.formOne + ", " +currentWord.formTwo + ", " +currentWord.formThree + ", " +currentWord.formFour + ", " + currentWord.formFive);
-}
+//}
 
 //console.log("fin");
