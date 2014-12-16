@@ -90,6 +90,7 @@ function getFile(localPath, res, mimeType) {
     fs.readFile(localPath, function(err, contents) {
         if(!err) {
             res.setHeader("Content-Length", contents.length);
+            console.log (localPath + ": type - " + mimeType);
             res.setHeader("Content-Type", mimeType);
             res.statusCode = 200;
             res.end(contents);
