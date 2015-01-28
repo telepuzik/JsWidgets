@@ -84,7 +84,7 @@ function CreateMultiServer (){
     }).listen(serverPort, serverIp);
     console.log('Server now running at http://' + serverIp + ':' + serverPort);
     http.createServer().listen("127.0.0.1", "8888");
-    console.log ("Server running at localhost");
+    console.log ("Server running at localhost server");
 }
 
 function getFile(localPath, res, mimeType) {
