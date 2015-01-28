@@ -83,7 +83,53 @@ function CreateMultiServer (){
 
     }).listen(serverPort, serverIp);
     console.log('Server now running at http://' + serverIp + ':' + serverPort);
-    http.createServer().listen("127.0.0.1", "8888");
+    http.createServer( function(req, res) {
+        //var now = new Date();
+
+        if (!((req.url === "") || (req.url === "/"))) {
+            var filename = req.url;
+        } else {
+            var filename = "/index.html";
+        }
+
+        //console.log("filename:" + filename + "; url:" + req.url );
+        var ext = path.extname(filename);
+        var localPath = __dirname;
+        var validExtensions = {
+            ".html" : "text/html",
+            ".js": "application/javascript",
+            ".css": "text/css",
+            ".txt": "text/plain",
+            ".jpg": "image/jpeg",
+            ".gif": "image/gif",
+            ".png": "image/png"
+        };
+        if (ext === "") {
+            ext = ".html";
+            filename += ".html";
+            console.log("empty path. now: " + filename);
+        }
+        var isValidExt = validExtensions[ext];
+
+        if (isValidExt) {
+
+            localPath += filename;
+            path.exists(localPath, function(exists) {
+                if(exists) {
+                    console.log("Serving file: " + localPath);
+                    getFile(localPath, res, isValidExt);
+                } else {
+                    console.log("File not found: " + localPath);
+                    res.writeHead(404);
+                    res.end();
+                }
+            });
+
+        } else {
+            console.log("Invalid file extension detected: " + ext)
+        }
+
+    }).listen("8888", "127.0.0.1");
     console.log ("Server running at localhost server");
 }
 
